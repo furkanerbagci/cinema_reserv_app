@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>CineFun</title>
+</head>
+<body>
+    <!-- navbar -->
+    <div class="navbar">
+        <div class="navbar_logo_container">
+            <a href="#" class="navbar_logo">CineFun</a>
+        </div>
+        <div class="navbar_items">
+            <select href="#" class="navbar_item choose_movie">Choose a Movie
+                <option value="20" class="movie">Movie 1</option>
+                <option value="22" class="movie">Movie 2</option>
+                <option value="25" class="movie">Movie 3</option>
+            </select>
+            <a href="#" class="navbar_item calculate_total">Calculate Total</a>
+            <a href="#" class="navbar_item">Log Out</a>
+        </div>
+    </div>
+
+    <!-- main section -->
+    <div class="main_contain">
+        <div class="container">
+            <div class="curtain">
+                <h2>Curtain</h2>
+            </div>
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat reserved"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat reserved"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat reserved"></div>
+                <div class="seat reserved"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+            <div class="info_contain">
+                <div class="info_item">
+                    <div class="seat"></div>
+                    <span>Boş Koltuk</span>
+                </div>
+                <div class="info_item">
+                    <div class="seat choosed"></div>
+                    <span>Seçilen Koltuk</span>
+                </div>
+                <div class="info_item">
+                    <div class="seat reserved"></div>
+                    <span>Dolu Koltuk</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- calculate-total -->
+
+    <div class="total_canvas">
+        <p class="selected_movie"></p>
+        <p class="select_seat_amount"></p>
+        <p class="total_p"></p>
+        <div class="btns">
+            <span class="btn_billing">Billing</span>
+            <span class="btn_giveUp">Give Up</span>
+        </div>
+        
+    </div>
+
+    <!-- footer -->
+    <!-- <div class="navbar">
+        <div class="navbar_logo_container">
+            <a href="#" class="navbar_logo">CineFun</a>
+        </div>
+        <div class="navbar_items">
+            <a href="#" class="navbar_item">Choose a Movie</a>
+            <a href="#" class="navbar_item">Calculate Total</a>
+            <a href="#" class="navbar_item">Log Out</a>
+        </div>
+    </div> -->
+    
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
